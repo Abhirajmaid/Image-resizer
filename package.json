@@ -1,0 +1,24 @@
+{
+  "name": "image-resizer",
+  "version": "1.0.0",
+  "description": "cross-platform desktop app to resize image dimensions, using JavaScript and Electron.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abhirajmaid/Image-resizer.git"
+  },
+  "author": "Abhiraj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abhirajmaid/Image-resizer/issues"
+  },
+  "homepage": "https://github.com/Abhirajmaid/Image-resizer#readme",
+  "dependencies": {
+    "electron": "^21.2.0",
+    "resize-img": "^2.0.0",
+    "toastify-js": "^1.12.0"
+  }
+}
