@@ -4,7 +4,7 @@ const fs = require("fs");
 const resizeImg = require("resize-img");
 const { app, BrowserWindow, Menu, ipcMain, shell } = require("electron");
 
-const isDev = process.env.NODE_ENV !== "production";
+const isDev = process.env.NODE_ENV === "production";
 const isMac = process.platform === "darwin";
 
 let mainWindow;
@@ -13,10 +13,10 @@ let aboutWindow;
 // Main Window
 function createMainWindow() {
   mainWindow = new BrowserWindow({
-    width: isDev ? 1000 : 500,
+    width: isDev ? 1000 : 600,
     height: 600,
     icon: `${__dirname}/assets/icons/Icon_256x256.png`,
-    resizable: isDev,
+    resizable: false,
     webPreferences: {
       nodeIntegration: true,
       contextIsolation: true,
