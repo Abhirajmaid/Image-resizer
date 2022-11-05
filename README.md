@@ -8,6 +8,21 @@ Electron application that allows you to select an image and easily change the wi
 
 ## Usage
 
+### 1. Check out latest Release to get Image Resizer app for youself :
+<a href="https://github.com/Abhirajmaid/Image-resizer/releases/tag/v1.0.0" >Latest Release</a>
+### 2. Make App run localy on your machine :
+Clone Repo:
+```bash
+
+git clone https://github.com/Abhirajmaid/Image-resizer.git
+```
+
+Open repo:
+```bash
+
+cd Image-resizer
+```
+
 Install dependencies:
 
 ```bash
@@ -20,7 +35,8 @@ Run:
 ```bash
 npm start
 ```
-
+ **OR**
+ 
 You can also use `Electronmon` to constantly run and not have to reload after making changes
 
 ```bash
